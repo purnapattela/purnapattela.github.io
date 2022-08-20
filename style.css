@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --primary-colour : #F38181;
+    --secondar-colour : #FCE38A;
+    --third-colour : #CAD5E2;
+    --grey-colour : #758283;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--third-colours);
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+span{
+    text-decoration: underline;
+}
+.hero-text{
+    justify-content: center;
+    display: flex;
+    background-color: #5A20CB;
+}
+#name{  
+    font-family: 'Pacifico', cursive;
+    font-size: 12em;
+    margin-left: 1em;
+    color: #CAD5E2;
+}
+.tag{
+    font-family: 'Rubik Maze', cursive;
+    font-weight: 400;
+    font-size: 10rem;
+    color: white;
+    margin-top: 0.7em;
+}
+.sec{
+    background-color: #E03B8B;
+}
+.tech{
+    /* background-color: #5A20CB; */
+    color: white;
+}
+.heart{
+    text-decoration: none;
+    color: #5A20CB;
+}
+hr{
+    margin-top: 13em;
+    border: 5px solid #5A20CB;
+    border-radius: 5px;
+}
+.txt{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poppins',sans-serif;
+}
